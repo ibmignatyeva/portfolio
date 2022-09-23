@@ -8,24 +8,26 @@
 }
 
 html {
-  min-height: 120%;
+min-height:120%;
+
+padding: 0px 20px 20px;
 }
 body {
-  margin: 60px auto;
-  max-width: 800px;
-  background: var(--gradient-color);
-  text-align: center;
+background: var(--gradient-color);
+max-width: 800px;
+text-align:center;
+margin:60px auto;
+display:block;
 }
 
 h1,
 h2,
 h3 {
   text-align: center;
-  margin: 0;
 }
 
 h1 {
-  font-size: 80px;
+  font-size: 60px;
   margin-bottom: 20px;
 }
 
@@ -71,7 +73,7 @@ p {
 }
 .contact-me,
 .email {
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   justify-content: center;
 }
@@ -90,6 +92,7 @@ p {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  margin-bottom: 30px;
 }
 .navigation-link:hover {
   background-color: var(--tertiary-color);
@@ -99,27 +102,25 @@ p {
 .primary-link {
   background-color: var(--secondary-color);
   box-shadow: var(--box-shadow);
-  color:var(--primary-color);
-   border: 1px solid var(--primary-color);
-
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .secondary-link {
-     color: var(--tertiary-color);
-
+  color: var(--tertiary-color);
 }
 
 .primary-link,
-.secondar-link{
+.secondar-link {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
-     font-size: 15px;
-    font-weight: bold;
-
+  font-size: 15px;
+  font-weight: bold;
 }
 
-  
- 
-  
+.row img {
+  margin-top: 50px;
+  display: block;
+}
