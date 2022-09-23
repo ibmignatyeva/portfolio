@@ -25,7 +25,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 80px;
   margin-bottom: 20px;
 }
 
@@ -95,3 +95,31 @@ p {
   background-color: var(--tertiary-color);
   transition: all 200ms ease-in-out;
 }
+
+.primary-link {
+  background-color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  color:var(--primary-color);
+   border: 1px solid var(--primary-color);
+
+}
+
+.secondary-link {
+     color: var(--tertiary-color);
+
+}
+
+.primary-link,
+.secondar-link{
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+     font-size: 15px;
+    font-weight: bold;
+
+}
+
+  
+ 
+  
