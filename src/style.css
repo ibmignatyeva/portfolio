@@ -124,3 +124,10 @@ p {
   margin-top: 50px;
   display: block;
 }
+
+.footer-home,
+.footer-contact,
+.footer-about{
+  text-decoration:none;
+  color:var(--primary-color)
+}
